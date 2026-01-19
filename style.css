@@ -41,6 +41,26 @@
         .mobile-hidden { 
             display: none !important; 
         }
+
+        .banner {
+            height: 470px;
+            padding: 40px 20px;
+        }
+
+        .microphone {
+            height: 200px;
+            width: 200px;
+        }
+        
+        .microphone img {
+            height: 70px;
+
+        }
+
+        .banner h1 {
+            font-size: 3rem;
+            padding-top: 24px;
+        }
     }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
