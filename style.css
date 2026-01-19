@@ -1,5 +1,6 @@
 @import "tailwind"
 
+
 /* * {
     margin: 0;
     padding: 0;
@@ -78,7 +79,20 @@
     }
 }
 
-/* .btn button:hover {
-    background-color: #63cc8f;
-    transition: all .3s ease-in-out;
-} */
+
+@media (max-width: 576px) {
+        .mobile-hidden { 
+            display: none !important; 
+        }
+    }
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .tablet-hidden {
+        display: none !important;
+    }
+}
+@media screen and (min-width: 992px) {
+    .desktop-hidden {
+        display: none !important;
+    }
+}

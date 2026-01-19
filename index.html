@@ -8,22 +8,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Tech Wave B-13 Assignment-2</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    </style>
 </head>
 <body class="max-w-[1600px] text-center mx-auto font-['Inter', sans-serif] text-base">
-     <header class="sticky top-0 bg-[#1A0B2E] text-white toborder-b border-gray-200">
+     <header class="sticky top-0 bg-[#1A0B2E] text-white w-full border-b border-gray-200">
         <nav class="max-w-[1200px] w-3/4 flex justify-between items-center mx-auto py-6">
             <div class="logo"><a href="#"><img class="max-w-[139px]" src="./assets/TechWave.png" alt="Logo"></a></div>
             <div class="menu">
-                <ul class="flex justify-center items-center gap-8">
+                <ul class="flex justify-center items-center gap-8 mobile-hidden tablet-hidden">
                     <li><a class="inline-block transition-all duration-300 ease-in-out hover:scale-109 hover:text-[#fb09b4]" href="#">About</a></li>
                     <li><a class="inline-block transition-all duration-300 ease-in-out hover:scale-109 hover:text-[#fb09b4]" href="#">Episodes</a></li>
                     <li><a class="inline-block transition-all duration-300 ease-in-out hover:scale-109 hover:text-[#fb09b4]" href="#">Host </a></li>
                 </ul>
             </div>
-            <div class="btn">
+            <div class="btn mobile-hidden tablet-hidden">
                 <button class="flex justify-center gap-1 items-center px-5 py-3 font-semibold cursor-pointer rounded-full bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] transition-all duration-300 ease-in-out hover:scale-104">Subscribe <img src="./assets/ArrowRight.png" alt="Arrow"></button>
+            </div>
+            <div class="hamburger desktop-hidden">
+                <img src="./assets/hamburger-menu.png" alt="hamburger icon">
             </div>
         </nav>
     </header>
