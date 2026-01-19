@@ -1,71 +1,14 @@
 @import "tailwind"
 
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
-
-/* body {
-    max-width: 1600px;
-    font-family: "Inter", sans-serif;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1rem;
-} */
-
-/* Header section design */
-/* header {
-    position: sticky;
-    top: 0;
-    z-index: 11;
-    background-color: #1A0B2E;
-    color: #ffffff;
-} */
-
-/* header nav {
-    max-width: 1200px;
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 24px 0;
-} */
-
-/* .logo a img {
-    max-width: 139px;
-} */
-
-/* .menu ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-} */
-
 .menu ul li {
     list-style: none;
 }
 
-/* .menu ul li a {
-    text-decoration: none;
-    font-weight: 500;
-    color: #ffffff;
-} */
-
-/* .menu ul li a:hover {
-    display: inline-block;
-    transform: scale(1.05);
-    transition: all 0.3s ease-in-out;
-    color: #FB09B4;
-} */
-
-.btn button {
+.animate-glow {
     animation: glow 1.5s infinite;
 }
+
+
 
 @keyframes glow {
     0% {
@@ -78,6 +21,20 @@
         box-shadow: 0 0 0 0 #fb09b200;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 576px) {
