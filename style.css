@@ -62,7 +62,7 @@
             padding-top: 24px;
         }
 
-        .about h2 {
+        h2 {
             font-size: 2rem;
         }
     }
@@ -73,7 +73,7 @@
     .tablet-hidden {
         display: none !important;
     }
-    .about h2 {
+    h2 {
             font-size: 2.6rem;
         }
 }
@@ -85,7 +85,7 @@
         display: none !important;
     }
 
-    .about h2 {
+    h2 {
             font-size: 3rem;
         }
 }
